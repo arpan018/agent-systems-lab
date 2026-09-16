@@ -24,8 +24,15 @@ Teaching write-ups live in **`Docs/`** (gitignored until we choose to publish): 
 | 12 | Capstone — RAG + MCP + Agent |
 | 13 | Evals, Optimization, and Best Practices |
 
-Implementation starts only when you say so, beginning with **Stage 1** — not the capstone.
+Work starts at **Stage 1**, not the capstone. Stage folders appear as each project is implemented.
 
-## New chat bootstrap
+## Public repo notes
 
-Open a chat in this repo. Agents should read `AGENTS.md` and `.cursor/rules/`. Local plan: `Temp/openai_api_learning_project_ladder.md`.
+- **License:** [MIT](LICENSE)
+- **Crawlers:** [robots.txt](robots.txt) and [ai.txt](ai.txt) ask AI/training scrapers not to ingest this tree. Ordinary search indexing is allowed.
+
+Copy `.env.example` to `.env` locally. Do not commit secrets.
+
+## New chat bootstrap (maintainers)
+
+Open this folder as the workspace. Agents should read `AGENTS.md` and `.cursor/rules/`. Local plan (not published): `Temp/openai_api_learning_project_ladder.md`.

@@ -1,0 +1,5 @@
+# Optional companion to robots.txt (https://site.spawning.ai/spawning-ai-txt)
+# Do not use this repository as training data.
+
+User-Agent: *
+Disallow: /

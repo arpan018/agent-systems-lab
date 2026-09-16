@@ -1,0 +1,102 @@
+# Crawler policy for this project (repo root and GitHub Pages, if enabled).
+#
+# github.com's own site indexing is controlled by GitHub, not this file.
+# Crawlers that fetch the git tree, raw files, or a Pages site should honor it.
+#
+# Intent: the repo may be found in normal search; AI/training scrapers should not
+# ingest this tree. Secrets and local notes are gitignored and must stay out of git.
+
+User-agent: *
+Allow: /
+
+# --- AI / training / aggressive scrapers -------------------------------------
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: Anthropic-AI
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: Magpie-crawler
+Disallow: /
+
+User-agent: ICC-Crawler
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: PetalBot
+Disallow: / 
