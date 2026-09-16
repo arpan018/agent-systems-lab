@@ -1,0 +1,18 @@
+---
+description: Shared memory for every new chat in this repo
+alwaysApply: true
+---
+
+# New chat bootstrap
+
+You are in the OpenAI API learning-ladder monorepo (`C:\Arpan\AI_API_Projects`).
+
+Before coding, read:
+
+1. `AGENTS.md`
+2. `Temp/PROGRESS.md` if it exists
+3. `Temp/openai_api_learning_project_ladder.md` if the task needs stage scope or "do not add yet" rules
+
+Do not ask the user to paste the ladder. It is local and gitignored on purpose.
+
+When the user says **start the implementation**, implement only the named stage and write teaching notes under `Docs/<stage_id>/` (gitignored). Explain why each important line exists; put long tutorials in `Docs/`, keep runtime comments focused.

@@ -1,0 +1,16 @@
+---
+description: Stage boundaries and reuse rules for the learning ladder
+alwaysApply: true
+---
+
+# Ladder scope
+
+- One stage at a time. Do not skip ahead or start the capstone early.
+- Honor each stage's **Do Not Add Yet** list from the ladder spec.
+- Shared code in `src/common/` is earned: local implement → test → second use → smallest extract.
+- Four config layers stay separate: env secrets, model profiles, project defaults, per-request overrides.
+- Profiles must not hold API keys, tokens, chat history, or retrieved docs.
+- Two usage lanes: Cursor plan vs this project's OpenAI key. Log per-response tokens for the project lane.
+- Never commit `.env`, keys, or `Temp/` / `Docs/` teaching drafts.
+- Prefer `uv` for deps and `uv run` for commands.
+- Tests first for deterministic code (schemas, builders, filters). LLM output is uncertain unless schema/tools/evals constrain it.

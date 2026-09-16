@@ -1,0 +1,14 @@
+---
+description: Python and uv conventions for this monorepo
+globs: "**/*.py"
+alwaysApply: false
+---
+
+# Python style
+
+- Python 3.12+ style: `X | None`, dataclasses or Pydantic, type hints on public functions.
+- No module-level mutable "active profile". Pass profile objects into services.
+- Do not blindly unpack profile fields into API calls; omit unsupported params; fail locally on contradictions.
+- Log profile name, model, and non-secret effective params. Never log secrets or full DB rows.
+- Keep prompts named and versionable; do not bury them in route handlers once they exist.
+- Format/lint with ruff when the project has it. Tests via `uv run pytest`.

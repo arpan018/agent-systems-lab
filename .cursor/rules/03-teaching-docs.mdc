@@ -1,0 +1,20 @@
+---
+description: Deep teaching notes when implementing a stage
+alwaysApply: true
+---
+
+# Teaching docs (when implementing)
+
+Trigger: user asks to implement, explain, or walk through a stage.
+
+Create or update `Docs/<NN_project_slug>/README.md` with:
+
+- Goal and what this stage deliberately omits
+- Mental model (config layers, request flow)
+- A simple mermaid or ASCII diagram of call flow
+- File map: each file's job
+- Why the important lines exist (tradeoffs, not a restatement of syntax)
+- How to run success and failure cases
+- What the next stage will add
+
+Keep `projects/<stage>/README.md` short (setup, run, examples). Depth goes in `Docs/`.
