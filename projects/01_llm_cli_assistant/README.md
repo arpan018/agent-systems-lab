@@ -93,7 +93,6 @@ Added or changed: Stage 1
 Why it exists: Holds the key check, the one profile, the request dict, and the API call together.
 What it does not do: It does not store chat history, choose among many models, or write the ledger format.
 Tests: Builds the fast_chat request, omits unset controls, rejects an empty question and a missing key.
-Next likely extension: A second profile and a schema in Stage 2, in that stage's own modules.
 Shared yet: No.
 ```
 
@@ -103,6 +102,9 @@ Added or changed: Stage 1
 Why it exists: Records per-response token counts for this project's API key.
 What it does not do: It does not store prompts, estimate cost, or warn against a daily allowance.
 Tests: Appends JSONL and totals one UTC day by model and profile.
-Next likely extension: Stage 2 can add the schema name on the same row.
 Shared yet: No.
 ```
+
+## Intended for
+
+One command-line question, one model reply, and token counts. This project is a one-shot text CLI.

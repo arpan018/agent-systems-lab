@@ -5,12 +5,16 @@ description = "Project ladder for learning the OpenAI API, one stage at a time."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi>=0.115",
     "openai>=1.0",
+    "pydantic>=2.0",
     "python-dotenv>=1.0",
+    "uvicorn>=0.32",
 ]
 
 [dependency-groups]
 dev = [
+    "httpx>=0.27",
     "pytest>=8.0",
     "ruff>=0.8",
 ]
@@ -19,13 +23,26 @@ dev = [
 package = false
 
 [tool.pytest.ini_options]
-testpaths = ["projects/01_llm_cli_assistant/tests"]
-pythonpath = ["projects/01_llm_cli_assistant"]
+testpaths = [
+    "projects/01_llm_cli_assistant/tests",
+    "projects/02_structured_data_extractor/tests",
+    "projects/03_fastapi_foundations/tests",
+]
+pythonpath = [
+    "projects/01_llm_cli_assistant",
+    "projects/02_structured_data_extractor",
+    "projects/03_fastapi_foundations",
+]
 
 [tool.ruff]
 target-version = "py312"
 line-length = 100
-src = ["projects/01_llm_cli_assistant", "scripts"]
+src = [
+    "projects/01_llm_cli_assistant",
+    "projects/02_structured_data_extractor",
+    "projects/03_fastapi_foundations",
+    "scripts",
+]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]

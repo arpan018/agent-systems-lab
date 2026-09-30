@@ -1,0 +1,23 @@
+### standup-owners
+Standup 30 Sep. Arpan will send the Stage 2 patch today. Maya owns the README proofread by Friday. No other actions.
+
+### no-owners
+Weekly ops dump: "need to rotate the staging key sometime", "docs are stale", "someone should ping legal about the DPA". Lots of talk, nobody claimed a task.
+
+### empty-actions
+Coffee chat with Sam. Weather, vacation photos, and a recap of last week's lunch. Explicitly: no action items, nothing to follow up.
+
+### urgent-deadline
+Incident review. P0: Priya must post the customer note before 5pm IST today — this is urgent. Also, Dev will file the RCA by tomorrow noon. Optional: consider a runbook later if we have time.
+
+### messy-punctuation
+notes from zoom--- ok soooo jamie said she'll "circle back" on invoices??  and TOM (tom??) to check the unused seats on Monday... wait also cancel the extra workspace if legal okays it — assign that to jamie too
+
+### dates-and-priority
+Planning. Low priority: archive the 2024 Notion dump whenever. Medium: Alex drafts the Q4 outline by 12 Oct. High: ship the extractor demo for Wednesday's review with Neha.
+
+### mixed-optional-fields
+Product sync. Title-ish: "mobile permissions". Ravi: reproduce the iOS prompt bug. Due unknown. Keisha mentioned she might help with copy but did not commit. Follow up with design — no name attached.
+
+### ambiguous
+"We should probably think about the onboarding flow at some point" / "maybe a checklist" / "if we do it, marketing would want a screenshot". Nobody said yes, no date, no owner. Extract only if something is actually a task.

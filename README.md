@@ -24,7 +24,13 @@ Teaching write-ups live in **`Docs/`** (gitignored until we choose to publish): 
 | 12 | Capstone — RAG + MCP + Agent |
 | 13 | Evals, Optimization, and Best Practices |
 
-Stage 1 is implemented: [LLM CLI Assistant](projects/01_llm_cli_assistant/README.md). Later stage folders appear as each project is implemented.
+Implemented so far:
+
+- Stage 1: [LLM CLI Assistant](projects/01_llm_cli_assistant/README.md)
+- Stage 2: [Structured Data Extractor](projects/02_structured_data_extractor/README.md)
+- Stage 3: [FastAPI Foundations](projects/03_fastapi_foundations/README.md)
+
+Later stage folders appear as each project is implemented.
 
 ## Public repo notes
 

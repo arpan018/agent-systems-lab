@@ -15,6 +15,6 @@ Create or update `Docs/<NN_project_slug>/README.md` with:
 - File map: each file's job
 - Why the important lines exist (tradeoffs, not a restatement of syntax)
 - How to run success and failure cases
-- What the next stage will add
+- What this stage is intended for (this stage only; no next-stage preview)
 
 Keep `projects/<stage>/README.md` short (setup, run, examples). Depth goes in `Docs/`.
