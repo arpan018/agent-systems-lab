@@ -24,7 +24,7 @@ Teaching write-ups live in **`Docs/`** (gitignored until we choose to publish): 
 | 12 | Capstone — RAG + MCP + Agent |
 | 13 | Evals, Optimization, and Best Practices |
 
-Work starts at **Stage 1**, not the capstone. Stage folders appear as each project is implemented.
+Stage 1 is implemented: [LLM CLI Assistant](projects/01_llm_cli_assistant/README.md). Later stage folders appear as each project is implemented.
 
 ## Public repo notes
 

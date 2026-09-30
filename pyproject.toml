@@ -1,0 +1,31 @@
+[project]
+name = "openai-api-learning-ladder"
+version = "0.1.0"
+description = "Project ladder for learning the OpenAI API, one stage at a time."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.8",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["projects/01_llm_cli_assistant/tests"]
+pythonpath = ["projects/01_llm_cli_assistant"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["projects/01_llm_cli_assistant", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
