@@ -1,5 +1,5 @@
 # Command line for one extraction or a batch of sample notes.
-# Prints schema JSON on stdout. Profile, model, and tokens go to stderr.
+# Prints schema JSON on stdout. The log line goes to stderr. Token counts go to the ledger.
 # ExtractorError is one stderr line and exit code 1.
 
 import argparse

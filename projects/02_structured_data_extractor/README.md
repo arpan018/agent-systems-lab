@@ -27,7 +27,7 @@ All eight samples:
 uv run python projects/02_structured_data_extractor/main.py --batch
 ```
 
-Stdout is JSON. Profile, model, schema, and token counts stay on stderr. Successful calls append `data/usage/requests.jsonl` with a `schema` field.
+Stdout is JSON. Stderr is the log line: profile, model, schema, and reasoning. Token counts are appended to `data/usage/requests.jsonl` with the profile and schema name.
 
 ## Success
 
